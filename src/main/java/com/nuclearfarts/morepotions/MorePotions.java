@@ -60,9 +60,9 @@ public final class MorePotions {
 	public static final Potion LONG_ABSORPTION = register("long_absorption", new Potion(new StatusEffectInstance(StatusEffects.ABSORPTION, 4 * 60 * 20, 1)));
 	public static final Potion STRONG_ABSORPTION = register("strong_absorption", new Potion(new StatusEffectInstance(StatusEffects.ABSORPTION, 1 * 60 * 20, 3)));
 	
-	public static final Potion HEALTH_BOOST = register("health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 90 * 20)), Items.GLISTERING_MELON_SLICE, ABSORPTION);
-	public static final Potion LONG_HEALTH_BOOST = register("long_health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 3 * 60 * 20)));
-	public static final Potion STRONG_HEALTH_BOOST = register("strong_health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 45 * 20, 1)));
+	public static final Potion HEALTH_BOOST = register("health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 2 * 60 * 20)), Items.GLISTERING_MELON_SLICE, ABSORPTION);
+	public static final Potion LONG_HEALTH_BOOST = register("long_health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 4 * 60 * 20)));
+	public static final Potion STRONG_HEALTH_BOOST = register("strong_health_boost", new Potion(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 60 * 20, 1)));
 	
 	public static void init() {
 		RECIPES.forEach(RecipeToInit::init);
