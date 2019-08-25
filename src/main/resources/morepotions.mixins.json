@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.nuclearfarts.morepotions.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "BrewingRecipeRegistryAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

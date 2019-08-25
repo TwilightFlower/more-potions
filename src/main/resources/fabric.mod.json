@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "morepotions",
+	"version": "1.0.0",
+	"name": "More Potions",
+	"description": "Makes every potion effect brewable!",
+	"authors": [
+		"NuclearFarts"
+	],
+	"contact": {
+		"sources": "https://github.com/nuclearfarts/more-potions"
+	},
+	"license": "LGPL v3",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nuclearfarts.morepotions.Init"
+		]
+	},
+	"mixins": [
+		"morepotions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
